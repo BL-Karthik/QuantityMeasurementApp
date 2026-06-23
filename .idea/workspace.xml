@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a31a95-9807-490f-8848-41094a4ee902" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/LengthUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,7 @@
       <recent name="com.bridgelabz.quantitymeasurementapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuantityMeasurementApp">
+  <component name="RunManager" selected="JUnit.QuantityMeasurementAppTest">
     <configuration name="Length" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.Length" />
       <module name="QuantityMeasurementApp" />
@@ -156,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuantityMeasurementAppTest" />
         <item itemvalue="Application.QuantityMeasurementApp" />
         <item itemvalue="Application.Length" />
-        <item itemvalue="JUnit.QuantityMeasurementAppTest" />
         <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_NullComparison" />
         <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_DifferentValue" />
       </list>
