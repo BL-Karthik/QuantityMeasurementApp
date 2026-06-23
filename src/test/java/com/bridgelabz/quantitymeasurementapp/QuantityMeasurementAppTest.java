@@ -47,5 +47,46 @@ public class QuantityMeasurementAppTest
           Assertions.assertEquals(feet,feet);
     }
 
+    //for Inches Equality
+    @Test
+    public void testInchesEquality_SameValue()
+    {
+        QuantityMeasurementApp.Inches inches1=new QuantityMeasurementApp.Inches(5);
+        QuantityMeasurementApp.Inches inches2=new QuantityMeasurementApp.Inches(5);
+        Assertions.assertEquals(inches1, inches2);
+    }
+
+    @Test
+    public void testInchesEquality_DifferentValue()
+    {
+        QuantityMeasurementApp.Inches inches1=new QuantityMeasurementApp.Inches(14);
+        QuantityMeasurementApp.Inches inches2=new QuantityMeasurementApp.Inches(15);
+        Assertions.assertNotEquals(inches1,inches2);
+
+    }
+
+    @Test
+    public void testInchesEquality_NullComparison()
+    {
+        QuantityMeasurementApp.Inches inches1=new QuantityMeasurementApp.Inches(9);
+        Assertions.assertFalse(inches1 == null);
+
+    }
+
+    @Test
+    public void testInchesEquality_DifferentClass()
+    {
+        QuantityMeasurementApp app=new QuantityMeasurementApp();
+        QuantityMeasurementApp.Inches inches=new QuantityMeasurementApp.Inches(8);
+        Assertions.assertNotEquals(inches,app);
+    }
+
+    @Test
+    public void testInchesEquality_SameReference()
+    {
+        QuantityMeasurementApp.Inches inches=new QuantityMeasurementApp.Inches(9);
+        Assertions.assertEquals(inches,inches);
+    }
 }
 
++

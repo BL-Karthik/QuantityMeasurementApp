@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a31a95-9807-490f-8848-41094a4ee902" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BL-Karthik"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BL-Karthik/QuantityMeasurementApp.git",
+    "accountId": "ef60814f-c920-414c-b435-382191d9c105"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -49,7 +56,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "dev"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,12 +65,12 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.QuantityMeasurementAppTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.App" />
+    <configuration name="QuantityMeasurementApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementApp" />
       <module name="QuantityMeasurementApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="PATTERN" value="com.bridgelabz.quantitymeasurementapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.QuantityMeasurementAppTest" />
+        <item itemvalue="Application.QuantityMeasurementApp" />
         <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_NullComparison" />
         <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_DifferentValue" />
         <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_SameValue" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +171,16 @@
       <updated>1782194370217</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
