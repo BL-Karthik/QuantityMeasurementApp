@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="31a31a95-9807-490f-8848-41094a4ee902" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/Length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/LengthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/LengthUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BL-Karthik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BL-Karthik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BL-Karthik/QuantityMeasurementApp.git",
-    "accountId": "ef60814f-c920-414c-b435-382191d9c105"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BL-Karthik/QuantityMeasurementApp.git&quot;,
+    &quot;accountId&quot;: &quot;ef60814f-c920-414c-b435-382191d9c105&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3FWcfBKzgSA5meZ6e6c7w66ewHn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +54,10 @@
     "Application.Length.executor": "Run",
     "Application.QuantityMeasurementApp.executor": "Run",
     "JUnit.QuantityMeasurementAppTest.executor": "Run",
+    "JUnit.QuantityMeasurementAppTest.testEquality_CentimetersNullComparison.executor": "Run",
+    "JUnit.QuantityMeasurementAppTest.testEquality_CentimetersToInches_EquivalentValue.executor": "Run",
+    "JUnit.QuantityMeasurementAppTest.testEquality_MultiUnit_TransitiveProperty.executor": "Debug",
+    "JUnit.QuantityMeasurementAppTest.testEquality_YardWithNullUnit.executor": "Run",
     "JUnit.QuantityMeasurementAppTest.testFeetEquality_DifferentValue.executor": "Run",
     "JUnit.QuantityMeasurementAppTest.testFeetEquality_NullComparison.executor": "Run",
     "JUnit.QuantityMeasurementAppTest.testFeetEquality_SameValue.executor": "Run",
@@ -67,32 +74,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.QuantityMeasurementAppTest">
-    <configuration name="Length" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.Length" />
-      <module name="QuantityMeasurementApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.quantitymeasurementapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuantityMeasurementApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementApp" />
-      <module name="QuantityMeasurementApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.quantitymeasurementapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuantityMeasurementAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QuantityMeasurementApp" />
       <extension name="coverage">
@@ -108,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityMeasurementAppTest.testFeetEquality_DifferentValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityMeasurementAppTest.testEquality_CentimetersNullComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QuantityMeasurementApp" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +99,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz.quantitymeasurementapp" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementAppTest" />
-      <option name="METHOD_NAME" value="testFeetEquality_DifferentValue" />
+      <option name="METHOD_NAME" value="testEquality_CentimetersNullComparison" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityMeasurementAppTest.testFeetEquality_NullComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityMeasurementAppTest.testEquality_CentimetersToInches_EquivalentValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QuantityMeasurementApp" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +115,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz.quantitymeasurementapp" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementAppTest" />
-      <option name="METHOD_NAME" value="testFeetEquality_NullComparison" />
+      <option name="METHOD_NAME" value="testEquality_CentimetersToInches_EquivalentValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantityMeasurementAppTest.testEquality_MultiUnit_TransitiveProperty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuantityMeasurementApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.quantitymeasurementapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.quantitymeasurementapp" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementAppTest" />
+      <option name="METHOD_NAME" value="testEquality_MultiUnit_TransitiveProperty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantityMeasurementAppTest.testEquality_YardWithNullUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuantityMeasurementApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.quantitymeasurementapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.quantitymeasurementapp" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.quantitymeasurementapp.QuantityMeasurementAppTest" />
+      <option name="METHOD_NAME" value="testEquality_YardWithNullUnit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.QuantityMeasurementAppTest" />
-        <item itemvalue="Application.QuantityMeasurementApp" />
-        <item itemvalue="Application.Length" />
-        <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_NullComparison" />
-        <item itemvalue="JUnit.QuantityMeasurementAppTest.testFeetEquality_DifferentValue" />
+        <item itemvalue="JUnit.QuantityMeasurementAppTest.testEquality_YardWithNullUnit" />
+        <item itemvalue="JUnit.QuantityMeasurementAppTest.testEquality_MultiUnit_TransitiveProperty" />
+        <item itemvalue="JUnit.QuantityMeasurementAppTest.testEquality_CentimetersToInches_EquivalentValue" />
+        <item itemvalue="JUnit.QuantityMeasurementAppTest.testEquality_CentimetersNullComparison" />
       </list>
     </recent_temporary>
   </component>

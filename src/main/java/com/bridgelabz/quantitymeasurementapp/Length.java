@@ -13,10 +13,7 @@ public class Length {
         return  value;
     }
     private double convertToBaseUnit() {
-        if (unit == LengthUnit.FEET) {
-            return value * 12;
-        }
-        return value;
+        return unit.toInches(value);
     }
 
     @Override
