@@ -1,7 +1,5 @@
 package com.bridgelabz.quantitymeasurementapp;
 
-
-
 public class Length {
     private double value;
     private LengthUnit unit;
