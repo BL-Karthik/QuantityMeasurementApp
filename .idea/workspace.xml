@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/Length.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/LengthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/LengthUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/quantitymeasurementapp/QuantityMeasurementAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev"
   }
@@ -73,7 +73,7 @@
       <recent name="com.bridgelabz.quantitymeasurementapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuantityMeasurementAppTest">
+  <component name="RunManager">
     <configuration name="QuantityMeasurementAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QuantityMeasurementApp" />
       <extension name="coverage">

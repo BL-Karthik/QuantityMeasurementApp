@@ -1,5 +1,7 @@
 package com.bridgelabz.quantitymeasurementapp;
 
+
+
 public class Length {
     private double value;
     private LengthUnit unit;
@@ -15,6 +17,10 @@ public class Length {
     private double convertToBaseUnit() {
         return unit.toInches(value);
     }
+    public  LengthUnit getUnit()
+    {
+        return  unit;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -28,5 +34,11 @@ public class Length {
         Length length = (Length) obj;
 
         return Double.compare(this.convertToBaseUnit(), length.convertToBaseUnit()) == 0;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "The value will be  "+value+" , unit : "+unit;
     }
 }
